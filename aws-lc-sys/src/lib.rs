@@ -89,6 +89,12 @@ platform_binding!(
     x86_64_unknown_linux_musl_crypto_ssl
 );
 
+platform_binding!(
+    s390x_unknown_linux_gnu,
+    s390x_unknown_linux_gnu_crypto,
+    s390x_unknown_linux_gnu_crypto_ssl
+);
+
 #[cfg(use_bindgen_generated)]
 #[allow(
     clippy::cast_lossless,
